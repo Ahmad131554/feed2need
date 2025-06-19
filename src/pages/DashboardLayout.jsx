@@ -9,7 +9,6 @@ function DashboardLayout({ role }) {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Redirect /profile to /profile/orders for customer only
     if (role === "customer" && location.pathname === "/profile") {
       navigate("/profile/orders", { replace: true });
     }
