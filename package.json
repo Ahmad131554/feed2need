@@ -1,0 +1,52 @@
+{
+  "name": "feed2need",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "supa": "supabase",
+    "supa:init": "supabase init",
+    "supa:login": "supabase login",
+    "supa:functions": "supabase functions",
+    "supa:deploy": "supabase functions deploy checkout-js --no-verify-jwt --use-api"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "@stripe/stripe-js": "^7.3.0",
+    "@supabase/supabase-js": "^2.49.4",
+    "@tailwindcss/vite": "^4.0.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.1",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.2.0",
+    "redux": "^5.0.1",
+    "stripe": "^18.1.0",
+    "tailwindcss": "^4.0.9",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "supabase": "^2.22.12",
+    "vite": "^6.2.0",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
