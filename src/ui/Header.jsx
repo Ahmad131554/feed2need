@@ -55,12 +55,10 @@ function Header() {
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Logo />
 
-        {/* Full nav shown on md+ */}
         <div className="hidden flex-1 md:flex md:justify-center">
           <PageNavigation />
         </div>
 
-        {/* Right section */}
         <div className="ml-auto flex items-center space-x-3 sm:space-x-4">
           <NavLink
             to="/cart"
@@ -95,7 +93,6 @@ function Header() {
             Become a Seller
           </NavLink>
 
-          {/* Mobile menu toggle */}
           <button
             onClick={toggleMenu}
             className="text-white focus:outline-none md:hidden"
@@ -109,7 +106,6 @@ function Header() {
         </div>
       </div>
 
-      {/* Mobile menu */}
       {isMenuOpen && (
         <div className="bg-emerald-600 px-4 pt-4 pb-6 md:hidden">
           <nav className="flex flex-col space-y-4 text-base font-medium">

@@ -6,7 +6,6 @@ function PageNavigation() {
     { name: "Shop", path: "/shop" },
     { name: "Cart", path: "/cart" },
     { name: "Login", path: "/login" },
-    { name: "Whishlist", path: "/profile/wishlist" },
   ];
 
   return (
